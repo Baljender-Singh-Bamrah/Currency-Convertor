@@ -19,7 +19,7 @@ const update_rate = async() => {
     let data = await fetching_data.json();
     let rate = data[from_select.value.toLowerCase()][to_select.value.toLowerCase()];
 
-    let total_amount = amt_value * rate;
+    let total_amount = (amt_value * rate).toFixed(4);
     display.innerText =`${amt_value} ${from_select.value} = ${total_amount} ${to_select.value}`;
 }
 
