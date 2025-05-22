@@ -28,6 +28,12 @@ btn.addEventListener('click' , (e) => {
     update_rate();
 })
 
+document.addEventListener("keypress", (e) => {
+    if(e.key==="Enter"){
+        update_rate();
+    }
+})
+
 window.addEventListener('load' , () => {
     update_rate();
 })
