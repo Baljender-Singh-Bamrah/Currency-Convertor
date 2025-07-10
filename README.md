@@ -22,7 +22,8 @@ Play it live: [https://realtimecurrencyconvertor.netlify.app/](https://realtimec
 - 💱 **Fawaz Ahmed Currency API** (for exchange rates)
 
 ## 🖼️ Preview
-![App Screenshot](https://via.placeholder.com/800x400?text=Currency+Converter+Screenshot) <!-- Add a screenshot if available -->
+![App Screenshot](images/preview.png)
+![App Screenshot](images/preview1.png)
 
 ## 🛠️ Setup & Run Locally
 1. **Clone the repository:**
